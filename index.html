@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliff Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <header class="netflix-header">
+        <h1 class="logo">CLIFF VIN BALINAS</h1>
+    </header>
+
+    
+    <section class="billboard">
+        <img src="c:\Users\User\Downloads\cliff.jpg" alt="Profile" class="billboard-img">
+        <div class="billboard-text">
+            <h2>CLIFF VIN BALINAS</h2>
+            <p>Welcome to my Netflix-inspired Portfolio</p>
+        </div>
+    </section>
+
+    
+    <section class="categories">
+        <button class="category-btn" onclick="toggleSection('about')">About Me</button>
+        <button class="category-btn" onclick="toggleSection('hobbies')">My Hobbies</button>
+        <button class="category-btn" onclick="toggleSection('learned')">What I Have Learned</button>
+        <button class="category-btn" onclick="toggleSection('gallery')">My Gallery</button>
+    </section>
+
+    
+    <section id="about" class="info-section">
+        <h3>About Me</h3>
+        <p>
+            Cliff Vin Balinas <br>
+            BSIT 1A <br>
+            balinas_cliffvin@fbc.education.ph
+        </p>
+    </section>
+
+    <section id="hobbies" class="info-section">
+        <h3>My Hobbies</h3>
+        <p>
+            Bible Reading <br>
+            Playing <br>
+            Coding <br>
+            Cleaning
+        </p>
+    </section>
+
+    <section id="learned" class="info-section">
+        <h3>What I Have Learned</h3>
+        <p>
+            Coding is fun and entertaining. Every mistake becomes a lesson that helps you think
+            creatively and design elegant ideas that can inspire others to code and build.
+        </p>
+    </section>
+
+    
+    <section id="gallery" class="info-section">
+        <h3>My Media Gallery</h3>
+
+        <div class="gallery-carousel">
+            
+            <div class="gallery-item"><img src="c:\Users\User\Downloads\Flori pe plaja.jpg"></div>
+            <div class="gallery-item"><img src="c:\Users\User\Downloads\Zootopia.jpg"></div>
+            <div class="gallery-item"><video src="c:\Users\User\Downloads\Sea.mp4" controls></video></div>
+            <div class="gallery-item"><img src="c:\Users\User\Downloads\Cats.jpg"></div>
+        </div>
+    </section>
+
+    <audio id="clickSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_f4729347dd.mp3?filename=click-124467.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
